@@ -1,5 +1,4 @@
 <?php
-    //require("./db/dblogic.php");
 
     class Article {
         public $article;

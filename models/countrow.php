@@ -1,5 +1,4 @@
 <?php
-    //require("./db/dblogic.php");
 
     class CountRow {
         public $count;

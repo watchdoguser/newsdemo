@@ -2,13 +2,6 @@
 	require("./controllers/newsController.php");
 	require("./controllers/articleController.php");
 	require("./db/dblogic.php");
-	/*
-	require("./controllers/articleController.php");
-	$articleController = new ArticleController();
-	$articleController->action();
-	require("./controllers/pageController.php");?page=10
-	$pageController = new PageController();
-	$pageController->action(1);*/
 	$url = $_SERVER['REQUEST_URI'];
 	if($url == "/"){
 		$newsController = new NewsController();
