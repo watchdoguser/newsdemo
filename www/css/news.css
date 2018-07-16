@@ -62,3 +62,51 @@ body {
 .num-page-title {
     border-Top: 1px dashed rgba(132, 40, 90, 0.397);
 }
+
+@media (max-width: 1366px) {
+    .main-content{
+        width: 70%;
+        top: 0;
+        left: 0;
+        border: 1px solid rgba(128, 128, 128, 0.397);
+        margin-left: 15%;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-content{
+        width: 70%;
+        top: 0;
+        left: 0;
+        border: 1px solid rgba(128, 128, 128, 0.397);
+        margin-left: 15%;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-content{
+        width: 90%;
+        top: 0;
+        left: 0;
+        border: 1px solid rgba(128, 128, 128, 0.397);
+        margin-left: 5%;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-content{
+        width: 98%;
+        top: 0;
+        left: 0;
+        border: 1px solid rgba(128, 128, 128, 0.397);
+        margin-left: 1%;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+}
