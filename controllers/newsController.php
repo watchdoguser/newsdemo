@@ -11,7 +11,7 @@
                 $page = parse_url($url);
                 parse_str($page['query'], $query);
                 $num = (int)str_replace(' ', '', $query['page']);
-                if($num == 0) {
+                if($num <= 0) {
                     include("./views/pagenotfound.php");
                 }
                 else {
